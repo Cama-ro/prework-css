@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  font-family: arial;
+}
+
+section {
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  background-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 1rem;
+}
+
+h2 {
+  margin: 4rem 0 2rem 0;
+  text-transform: uppercase;
+  background-color: rgb(255, 220, 220);
+  letter-spacing: 1px;
+  padding: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  background-color: rgb(255, 208, 137);
+  padding: 0.5rem;
+}
+
+h2 + p {
+  background-color: rgb(255, 230, 194);
+}
+
+ol {
+  padding: 0.5rem 2rem;
+  background-color: rgb(236, 234, 234);
+}
+
+ol li:nth-of-type(1) {
+  color: rgb(190, 18, 104);
+}
+
+ol li:nth-of-type(2) {
+  color: rgb(0, 0, 0);
+}
+
+ol li:nth-of-type(3) {
+  color: rgb(131, 128, 72);
+}
+
+ol li:nth-of-type(4) {
+  color: rgb(235, 141, 86);
+}
+
+ol li:nth-of-type(5) {
+  color: rgb(52, 161, 58);
+}
